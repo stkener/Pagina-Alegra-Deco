@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.colorBody{
+    background-color: #D8C4B6;
+
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.fuenteTituloAlegra{
+    font-size: calc(0.9px + 4vw);
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+.fuenteSubtitulo{
+    font-size: calc(1.5px + 0.9vw);
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+.fuenteParrafo{
+    font-size: calc(1.5px + 0.9vw);
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+.fuenteSubtituloSeccion{
+    font-size: calc(3px + 1.2vw);
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+.colorNegro{
+    color: black;
+}
+
+.colorRosa{
+    background-color: #DEBDDA;
+}
+
+.colorVerde{
+    background-color: #69D5BD;
+}
+
+.colorAmarillo{
+    background-color: #FFDE59;
+}
+
+/*#########################################################*/
+/*Tablet*/
+/*#########################################################*/
+@media only screen and (min-width: 767px) and (max-width: 1024px){
+
+.fuenteSubtituloSeccion{
+    font-size: calc(3px + 2vw);
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+}
+
+/*#########################################################*/
+/*Celular*/
+/*#########################################################*/
+@media only screen and (max-width: 767px){
+
+.fuenteSubtituloSeccion{
+    font-size: calc(3px + 2vw);
+    font-family: 'Lexend Tera', sans-serif;
+} 
+}

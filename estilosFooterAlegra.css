@@ -1,0 +1,281 @@
+/*#########################################################*/
+/*Escritorio*/
+/*#########################################################*/
+@media only screen and (min-width: 1024px){
+
+.estiloFoot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+}
+
+.contenedorEnlacesFooter{
+    width: 50%;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: normal;
+}
+
+.contenedorIconoFooter{
+    padding: 4%;
+    border-radius: 50%;
+    background-color:#F6F4EB ;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.estiloIconoFooter{
+    
+    text-decoration: none;
+    font-size: calc(1.5px + 3vw);
+    color: black;
+    transform: all 300ms;
+    position:static;  
+}
+
+.estiloIconoFooter:hover{
+    transform: scale(1.25);
+}
+
+/*MENU*/
+.menuFooter{
+    width: 50%;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.listaMenuFooter{
+    margin: 0;
+    padding: 1%;
+    justify-content: center;    
+}
+
+.itemMenuFooter{
+    list-style: none;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.itemMenuFooter a{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3%;
+    
+    color: black;
+}
+
+.itemMenuFooter a:hover{
+    transform: scale(1.25);
+    color: black;
+}
+
+.fuenteTituloMenuFooter{
+    font-size: calc(3px + 1.6vw);
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+.fuenteParrafoMenuFooter{
+    font-size: calc(2px + 1.5vw);
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+}
+
+/*#########################################################*/
+/*Tablet*/
+/*#########################################################*/
+@media only screen and (min-width: 767px) and (max-width: 1024px){
+.estiloFoot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+}
+
+.contenedorEnlacesFooter{
+    width: 50%;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: normal;
+}
+
+.contenedorIconoFooter{
+    padding: 4%;
+    border-radius: 50%;
+    background-color:#F6F4EB ;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.estiloIconoFooter{
+    
+    text-decoration: none;
+    font-size: calc(1.5px + 3vw);
+    color: black;
+    transform: all 300ms;
+    position:static;  
+}
+
+.estiloIconoFooter:hover{
+    transform: scale(1.25);
+}
+
+/*MENU*/
+.menuFooter{
+    width: 50%;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.listaMenuFooter{
+    margin: 0;
+    padding: 1%;
+    justify-content: center;     
+}
+
+.itemMenuFooter{
+    list-style: none;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.itemMenuFooter a{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3%;
+    
+    color: black;
+}
+
+.itemMenuFooter a:hover{
+    transform: scale(1.25);
+    color: black;
+}
+
+.fuenteTituloMenuFooter{
+    font-size: calc(3px + 1.6vw);
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+.fuenteParrafoMenuFooter{
+    font-size: calc(2px + 1.5vw);
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+}
+
+/*#########################################################*/
+/*Celular*/
+/*#########################################################*/
+@media only screen and (max-width: 767px){
+    .estiloFoot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+}
+
+.contenedorEnlacesFooter{
+    width: 50%;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: normal;
+}
+
+.contenedorIconoFooter{
+    padding: 4%;
+    border-radius: 50%;
+    background-color:#F6F4EB ;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.estiloIconoFooter{
+    
+    text-decoration: none;
+    font-size: calc(1.5px + 6vw);
+    color: black;
+    transform: all 300ms;
+    position:static;  
+}
+
+.estiloIconoFooter:hover{
+    transform: scale(1.25);
+}
+
+/*MENU*/
+.menuFooter{
+    width: 50%;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.listaMenuFooter{
+    margin: 0;
+    padding: 1%;
+    justify-content: center;     
+}
+
+.itemMenuFooter{
+    list-style: none;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.itemMenuFooter a{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3%;
+    
+    color: black;
+}
+
+.itemMenuFooter a:hover{
+    transform: scale(1.25);
+    color: black;
+}
+
+.fuenteTituloMenuFooter{
+    font-size: calc(6px + 2vw);
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+.fuenteParrafoMenuFooter{
+    font-size: calc(5px + 2vw);
+    font-family: 'Lexend Tera', sans-serif;
+}
+}

@@ -1,0 +1,464 @@
+/*#########################################################*/
+/*Escritorio*/
+/*#########################################################*/
+@media only screen and (min-width: 1024px){
+/*CARRUSEL*/
+.contenedorCarrusel{
+    position: relative;
+    overflow: hidden;    
+}
+
+.listaImagenes{
+    display: flex; 
+    transform: translateX(0);
+    transition: transform 1s ease-in-out;
+}
+
+.imagenFoto{
+    width: 100%;
+    height:auto;
+
+}
+
+.contenedorFechas{
+    background-color: rgb(0, 0, 0, 0);
+    width: 100%;
+    height:auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.estiloFlechas{
+    background-color:transparent;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: calc(2px + 3vw);
+    color: black;
+    padding-left: 1%;
+    padding-right: 1%;    
+} 
+
+.estiloFlechas:hover{
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgb(0, 0, 0, 0.1); 
+    color: black; 
+}
+
+
+/*ENLACES*/
+.contenedorEnlaces{
+    padding: 3%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: normal;
+}
+
+.contenedorIcono{
+    padding: 4%;
+    border-radius: 50%;
+
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.estiloIcono{
+    text-decoration: none;
+    font-size: calc(1.5px + 4vw);
+    color: black;
+    transform: all 300ms;
+    position:static;
+    
+}
+
+.estiloIcono:hover{
+    transform: scale(1.25);
+}
+
+
+/*PRODUCTOS*/
+.contenedorProductos{
+    background-color:#F6F4EB;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.productos article{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin: 2%;
+}
+
+.productos article img{
+    max-width: 80%;
+    height: auto;
+    padding: 2%;
+}
+
+.fuenteProductos{
+    font-size: calc(2px + 1.2vw);
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+/*CLIENTES*/
+.contenedorClientes{
+    /*background-color:#F6F4EB;*/
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.clientes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.clientes article{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin: 2%;
+}
+
+.clientes article img{
+    max-width: 50%;
+    height: auto;
+    padding: 2%;
+}
+
+}
+
+/*#########################################################*/
+/*Tablet*/
+/*#########################################################*/
+@media only screen and (min-width: 767px) and (max-width: 1024px){
+/*CARRUSEL*/
+.contenedorCarrusel{
+    padding-top: 3%;
+    background-color: #F6F4EB;
+    position: relative;
+    overflow: hidden;
+}
+
+.listaImagenes{
+    display: flex; 
+    transform: translateX(0);
+    transition: transform 1s ease-in-out;
+}
+
+.imagenFoto{
+    width: 100%;
+    height:auto;
+}
+
+.contenedorFechas{
+    background-color: rgb(0, 0, 0, 0);
+    width: 100%;
+    height:auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.estiloFlechas{
+    background-color:transparent;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: calc(2px + 3vw);
+    color: black;
+    padding-left: 1%;
+    padding-right: 1%;    
+} 
+
+.estiloFlechas:hover{
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgb(0, 0, 0, 0.1); 
+    color: black; 
+}
+
+
+/*ENLACES*/
+.contenedorEnlaces{
+    padding: 3%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: normal;
+}
+
+.contenedorIcono{
+    padding: 4%;
+    border-radius: 50%;
+
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.estiloIcono{
+    text-decoration: none;
+    font-size: calc(1.5px + 4vw);
+    color: black;
+    transform: all 300ms;
+    position:static;   
+}
+
+.estiloIcono:hover{
+    transform: scale(1.25);
+}
+
+/*PRODUCTOS*/
+.contenedorProductos{
+    background-color:#F6F4EB;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.productos article{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin: 2%;
+}
+
+.productos article img{
+    max-width: 80%;
+    height: auto;
+    padding: 2%;
+}
+
+.fuenteProductos{
+    font-size: calc(2px + 1.5vw);
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+/*CLIENTES*/
+.contenedorClientes{
+    /*background-color:#F6F4EB;*/
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.clientes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.clientes article{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin: 2%;
+}
+
+.clientes article img{
+    max-width: 50%;
+    height: auto;
+    padding: 2%;
+}
+
+}
+
+/*#########################################################*/
+/*Celular*/
+/*#########################################################*/
+@media only screen and (max-width: 767px){
+/*CARRUSEL*/
+.contenedorCarrusel{
+    padding-top: 3%;
+    background-color: #F6F4EB;
+    position: relative;
+    overflow: hidden;
+}
+
+.listaImagenes{
+    display: flex; 
+    transform: translateX(0);
+    transition: transform 1s ease-in-out;
+}
+
+.imagenFoto{
+    width: 100%;
+    height:auto;
+}
+
+.contenedorFechas{
+    background-color: rgb(0, 0, 0, 0);
+    width: 100%;
+    height:auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.estiloFlechas{
+    background-color:transparent;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: calc(2px + 3vw);
+    color: black;
+    padding-left: 1%;
+    padding-right: 1%;    
+} 
+
+.estiloFlechas:hover{
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgb(0, 0, 0, 0.1); 
+    color: black; 
+}
+
+/*ENLACES*/
+.contenedorEnlaces{
+    padding: 3%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: normal;
+}
+
+.contenedorIcono{
+    padding: 4%;
+    border-radius: 50%;
+
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.estiloIcono{
+    text-decoration: none;
+    font-size: calc(1.5px + 4vw);
+    color: black;
+    transform: all 300ms;
+    position:static;   
+}
+
+.estiloIcono:hover{
+    transform: scale(1.25);
+}
+
+/*PRODUCTOS*/
+.contenedorProductos{
+    background-color:#F6F4EB;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.productos article{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin: 2%;
+}
+
+.productos article img{
+    max-width: 70%;
+    height: auto;
+    padding: 2%;
+}
+
+.fuenteProductos{
+    font-size: calc(2px + 2.5vw);
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+/*CLIENTES*/
+.contenedorClientes{
+    /*background-color:#F6F4EB;*/
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.clientes{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.clientes article{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin: 2%;
+}
+
+.clientes article img{
+    max-width: 50%;
+    height: auto;
+    padding: 2%;
+}
+
+}

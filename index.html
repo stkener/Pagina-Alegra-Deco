@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alegra Deco & Bazar</title>
+
+    <link rel="stylesheet" href="estiloGeneralAlegra.css">
+    <link rel="stylesheet" href="estiloHeaderAlegra.css">
+    <link rel="stylesheet" href="estiloMainAlegra.css">
+    <link rel="stylesheet" href="estilosFooterAlegra.css">
+    <link rel="stylesheet" href="iconos.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body class="colorBody">
+    <header class="contenedorEncabezado">
+        <div class="contenedorTituloBoton">
+            <div class="contenedorTitulo">
+                <a href="#" class="" style="text-decoration: none;"><span class="fuenteTituloAlegra colorNegro ">ALEGRA</span></a>
+                <p class="fuenteSubtitulo ">DECO Y BAZAR</p>
+            </div>
+            <div class="contenedorBoton">
+                <button class= "iconoMenu" id="butonIconoMenu"><img src="img/icoMenu.png" class="imagenIconoMenu" id="imagenMenuIcono"></button>
+    	    </div>
+        </div>
+        <div class="contenedorMenu">
+            <ul class="listaMenu">
+                <li class="itemMenu"><a class="fuenteParrafo formatoAncla" style="text-decoration: none;" href="index.html" target="_self">INICIO</a></li>
+                <li class="itemMenu"><a class="fuenteParrafo formatoAncla" style="text-decoration: none;" href="#links">ENCONTRANOS</a></li>
+                <li class="itemMenu"><a class="fuenteParrafo formatoAncla" style="text-decoration: none;" href="#produ">PRODUCTOS</a></li>
+                <li class="itemMenu"><a class="fuenteParrafo formatoAncla" style="text-decoration: none;" href="#clientes">CLIENTES</a></li>
+            </ul>  
+        </div>    
+    </header>
+    <main>
+        <div class="contenedorCarrusel">
+            <div class="listaImagenes">
+                <img src="img/ALEGRAportada.png" alt="" class="imagenFoto">
+                <img src="img/alegraenvios.png" alt="" class="imagenFoto">
+                <img src="img/alegrapagos.png" alt="" class="imagenFoto">
+            </div>
+
+            <div class="contenedorFechas"><!-- -->
+                <button class="icon-backward estiloFlechas botonIzquierda" style="border:none"></button>
+                <button class="icon-forward2 estiloFlechas botonDerecha" style="border:none"></button>
+            </div>
+        </div>
+        <div class="contenedorEnlaces" id="links">
+
+            <div class="contenedorIcono colorRosa"><a class="icon-cart estiloIcono" style="text-decoration: none; color:black;" href="https://alegradecoybazar.mercadoshops.com.ar/p/contacto" target="_blank"></a></div>
+            <div class="contenedorIcono colorAmarillo"><a class="icon-instagram estiloIcono" style="text-decoration: none; color:black;" href="https://www.instagram.com/alegra.decoybazar/" target="_blank"></a></div>
+            <div class="contenedorIcono colorVerde"><a class="icon-whatsapp estiloIcono" style="text-decoration: none; color:black;" href="https://web.whatsapp.com/send?phone=5491133637448" target="_blank"></a></div>
+
+        </div>
+        <div class="contenedorProductos" id="produ">
+            <p class="fuenteSubtituloSeccion">PRODUCTOS</p>
+            <div class="productos" id="contenedorArticulos">
+            </div>
+
+        </div>
+        <div class="contenedorClientes" id="clientes">
+            <p class="fuenteSubtituloSeccion">CLIENTES</p>
+            <div class="clientes" id="contenedorCli">
+                
+            </div>
+        </div>
+    </main>
+    <footer class="estiloFoot colorVerde">
+        <div class="contenedorEnlacesFooter">
+
+            <div class="contenedorIconoFooter"><a class="icon-cart estiloIconoFooter" style="text-decoration: none; color:black;" href="https://alegradecoybazar.mercadoshops.com.ar/p/contacto" target="_blank"></a></div>
+            <div class="contenedorIconoFooter"><a class="icon-instagram estiloIconoFooter" style="text-decoration: none; color:black;" href="https://www.instagram.com/alegra.decoybazar/" target="_blank"></a></div>
+            <div class="contenedorIconoFooter"><a class="icon-whatsapp estiloIconoFooter" style="text-decoration: none; color:black;" href="https://web.whatsapp.com/send?phone=5491133637448" target="_blank"></a></div>
+
+        </div>
+        
+        <div class="menuFooter">
+            <p class="fuenteTituloMenuFooter">Menu</p>
+            <ul class="listaMenuFooter">
+                <li class="itemMenuFooter"><span class="icon-bookmark "></span><a class="fuenteParrafoMenuFooter" style="text-decoration: none;" href="index.html" target="_self">Inicio</a></li>
+                <li class="itemMenuFooter"><span class="icon-bookmark "></span><a class="fuenteParrafoMenuFooter" style="text-decoration: none;" href="#nuestro">Nosotros</a></li>
+                <li class="itemMenuFooter"><span class="icon-bookmark "></span><a class="fuenteParrafoMenuFooter" style="text-decoration: none;" href="#servi">Servicios</a></li>
+                <li class="itemMenuFooter"><span class="icon-bookmark "></span><a class="fuenteParrafoMenuFooter" style="text-decoration: none;" href="#conti">Contacto</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="barraAlegra.js"></script>
+    <script src="caruselAlegra.js"></script>
+    <script src="productos.js"></script>
+    <script src="clientes.js"></script>
+</body>
+</html>
